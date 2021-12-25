@@ -71,7 +71,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker ps output](https://docs.google.com/document/d/1fKjtg9VCSnA38BsPIIrINk4sbP8j7YZVtdJThpFCDfo/edit)
+![Docker ps output](C:\Users\mahen\OneDrive\Documents\GitHub\Project-1/Docker_ps_Output)
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring_
