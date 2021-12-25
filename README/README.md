@@ -21,12 +21,12 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly _Secure____, in addition to restricting _Public_Access___ to the network.
+- _TODO: What aspect of security do load balancers protect? They protect web traffic coming in and out of the network What is the advantage of a jump box?_The jumpbox serves as a gateway into the Subnet of the Virtual Network_
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __Network?___ and system __Logs___.
+- _TODO: What does Filebeat watch for?_Filebeat watches system log data through various events
+- _TODO: What does Metricbeat record?_Metricbeat records metrics from services running on the system and outputs it to elastic or logstash_
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -34,9 +34,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Web-1    |  DVWA    | 10.0.0.8   | Linux            |
+| Web-2    |  DVWA    | 10.0.0.9   | Linux            |
+| TODO     | Kibana   | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
