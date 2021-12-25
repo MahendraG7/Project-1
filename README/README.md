@@ -81,19 +81,19 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 -  In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
--  Filebeat collects log data and forwards them to logstash or elasticsearch. I expect Filebeat process file data and send it to elasticsearch or logstash to analyze.
--  Metricbeat collects metrics from services running on the system. If im running anything out of web-1 and web-2 i expect Metricbeat to record output that data on kibana through elastic or logstash.
+-  Filebeat collects log data and forwards them to logstash or elasticsearch. I expect Filebeat to process inbound traffic data and send it to elasticsearch or logstash to analyze.
+-  Metricbeat collects metrics from services running on the system. If im running anything out of web-1 and web-2 I expect Metricbeat to record output that data on kibana through elastic or logstash.
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the ___yml__ file to _ansible____.
+- Update the __ansible___ file to include the playbook
+- Run the playbook, and navigate to __Container__ to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- _Which URL do you navigate to in order to check that the ELK server is running? http://23.99.204.44:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
