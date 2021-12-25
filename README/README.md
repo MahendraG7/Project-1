@@ -43,7 +43,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the __Host___ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- Jumpbox:52.249.190.189, Loadbalancer:201.119.69.194
+- Jumpbox:10.0.0.6, Web-1:10.0.0.8, Web-2:10.0.0.9, ElkVM:10.1.0.4
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
