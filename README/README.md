@@ -36,7 +36,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 10.0.0.6   | Linux            |
 | Web-1    |  DVWA    | 10.0.0.8   | Linux            |
 | Web-2    |  DVWA    | 10.0.0.9   | Linux            |
-| TODO     | Kibana   | 10.1.0.4   | Linux            |
+| ElkVM    | Kibana   | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
@@ -50,16 +50,16 @@ Machines within the network can only be accessed by _Docker_Containers____.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box |     No              | 10.0.0.8 10.0.0.9    |
-|          |                     |                      |
-|          |                     |                      |
+| Name     | Publicly Accessible | Allowed IP Addresses       |
+|----------|---------------------|----------------------------|
+| Jump Box |     No              | 10.0.0.8 10.0.0.9 10.1.0.4 |
+|          |                     |                            |
+|          |                     |                            |
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- _TODO: What is the main advantage of automating configuration with Ansible?_The main advantage of using Ansible to automate configuration files is that it deploys at higher speed because it performs without needing to install a software agent 
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
