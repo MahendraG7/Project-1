@@ -25,8 +25,8 @@ Load balancing ensures that the application will be highly _Secure_, in addition
 - What aspect of security do load balancers protect? They protect web traffic coming in and out of the network, also they protect applications from threats. What is the advantage of a jump box?_The jumpbox serves as a gateway into the Subnet of the Virtual Network_
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __Network___ and system __Logs___.
-- What does Filebeat watch for?_Filebeat watches system log data through various events
-- What does Metricbeat record?_Metricbeat records metrics from services running on the system and outputs it to elastic or logstash_
+- What does Filebeat watch for?_Filebeat watches system log data through various events that is specied and sends it ot Kibana
+- What does Metricbeat record?_Metricbeat records metrics from services running on the system and outputs it to kibana_
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
