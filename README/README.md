@@ -45,7 +45,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the __Host___ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Jumpbox:10.0.0.6, Web-1:10.0.0.8, Web-2:10.0.0.9, ElkVM:10.1.0.4
 
-Machines within the network can only be accessed by _Docker_Containers____.
+Machines within the network can only be accessed by _Docker_Containers_.
 -  Which machine did you allow to access your ELK VM? The Jumpbox VM. What was its IP address? 10.0.0.6
 
 A summary of the access policies in place can be found in the table below.
@@ -92,8 +92,6 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to __IP_address__ to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- _Which file is the playbook? Where do you copy it?_install-elk.yml and I copied it to nano
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_We changed the host IP to elk IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the filebeat config and metricbeat config
 - _Which URL do you navigate to in order to check that the ELK server is running? http://23.99.204.44:5601/app/kibana
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
