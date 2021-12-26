@@ -54,7 +54,7 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------------|
 | Jump Box |     No              | 10.0.0.8 10.0.0.9 10.1.0.4 |
 |  Elk     |     No              | 10.0.0.6                   |
-| Firewall |     No              |                            |
+|  Firwall |     No              | 10.0.06 10.1.0.4           |
 
 ### Elk Configuration
 
@@ -91,7 +91,7 @@ SSH into the control node and follow the steps below:
 - Update the __ansible___ file to include the playbook
 - Run the playbook, and navigate to __IP_address__ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+_  Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_install-elk.yml and I copied it to nano
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_We changed the host IP to elk IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the filebeat config and metricbeat config
 - _Which URL do you navigate to in order to check that the ELK server is running? http://23.99.204.44:5601/app/kibana
