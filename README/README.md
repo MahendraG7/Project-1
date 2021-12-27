@@ -89,7 +89,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the ___yml__ file to _ansible__.
-- Update the __ansible___ file to include the playbook
+- Update the __ansible__ file to include the playbook
 - Run the playbook, and navigate to __IP_address__ to check that the installation worked as expected.
 
 _  Answer the following questions to fill in the blanks:_
