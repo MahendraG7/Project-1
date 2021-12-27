@@ -88,7 +88,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ___yml__ file to _ansible___.
+- Copy the ___yml__ file to _ansible__.
 - Update the __ansible___ file to include the playbook
 - Run the playbook, and navigate to __IP_address__ to check that the installation worked as expected.
 
