@@ -1,7 +1,7 @@
 Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
 
-Project1Diagram
+<img width="599" alt="Project Submission" src="https://user-images.githubusercontent.com/90288689/149040967-71914228-8007-44a2-b2ae-22b87a3a7e25.PNG">
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _Edited_Playbook_file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -47,7 +47,7 @@ Jump Box	yes	10.0.0.8 10.0.0.9 10.1.0.4
 Elk	No	10.0.0.6
 Web-1	No	10.0.0.6
 Web-2	No	10.0.0.6
-Elk Configuration
+<img width="911" alt="elkvm" src="https://user-images.githubusercontent.com/90288689/149040977-dac51273-11e5-4223-8597-7b55f50e66c9.PNG">
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
 What is the main advantage of automating configuration with Ansible?_The main advantage of using Ansible to automate configuration files is that it deploys at higher speed because it performs without needing to install a software agent
@@ -88,3 +88,4 @@ _ Answer the following questions to fill in the blanks:_
 _Which file is the playbook? Where do you copy it?_install-elk.yml and I copied it to nano
 _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_We changed the host IP to elk IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the filebeat config and metricbeat config
 _Which URL do you navigate to in order to check that the ELK server is running? http://23.99.204.44:5601/app/kibana
+
