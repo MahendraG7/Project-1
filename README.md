@@ -25,7 +25,7 @@ Load balancing ensures that the application will be highly Secure, in addition t
 -  They protect web traffic coming in and out of the network, also they protect applications from threats.The jumpbox serves as a gateway into the Subnet of the Virtual Network
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the Network and system Logs.
-- Filebeat watches system log data through various events that is specied and sends it ot Kibana
+- Filebeat watches system log data through various events that is specied and sends it to Kibana
 - Metricbeat records metrics from services running on the system and outputs it to kibana
 
 The configuration details of each machine may be found below.
