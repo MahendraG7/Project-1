@@ -59,7 +59,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it deploys at higher speeds and it performs without needing to install a software agent 
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it deploys at higher speeds and it performs without needing to install a software agent. 
 
 The playbook implements the following tasks:
 -  Use apt module to Install Docker.io
