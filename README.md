@@ -90,6 +90,6 @@ SSH into the control node and follow the steps below:
 - Update the ansible file to include the playbook
 - Run the playbook, and then navigate to IP address to check that the installation worked as expected
 
-- install-elk.yml is the playbook file and I copied it to nano
+- install-elk.yml is the playbook file and we copied it to nano
 - We then changed the host IP to ELK IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the Filebeat config and Metricbeat config
 - To check that the ELK server is running we went to http://23.99.204.44:5601/app/kibana
