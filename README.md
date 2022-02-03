@@ -74,7 +74,7 @@ The following screenshot displays the result of running `docker ps` after succes
 ![Docker ps output](https://raw.githubusercontent.com/MahendraG7/Project-1/main/Docker%20ps%20Output.JPG)
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- 10.0.0.8, 10.0.0.9
+- 10.0.0.8 and 10.0.0.9
 
 We have installed the following Beats on these machines:
 - Filebeat and Metricbeat
