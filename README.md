@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Project1Diagram](https://raw.githubusercontent.com/MahendraG7/Project-1/main/Diagrams/Fixed_Diagram.JPG)
+![Project1Diagram](https://raw.githubusercontent.com/MahendraG7/Project-1/main/Diagrams/FinishedDiagram.JPG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Edited playbook file may be used to install only certain pieces of it, such as Filebeat.
 
