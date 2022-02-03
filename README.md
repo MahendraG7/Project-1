@@ -22,11 +22,12 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnernable Web Application.
 
 Load balancing ensures that the application will be highly Secure, in addition to restricting Unauthorized Access to the network.
--  They protect web traffic coming in and out of the network, also they protect applications from threats. The jumpbox serves as a gateway into the Subnet of the Virtual Network.
+-  They protect web traffic coming in and out of the network, also they protect applications from threats
+-  The jumpbox serves as a gateway into the Subnet of the Virtual Network
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the Network and system Logs.
+Integrating an ELK server allows users to easily monitor the vulnerable Virtual Machines(VM) for changes to the Network and system Logs.
 - Filebeat watches system log data through various events that is specied and sends it to Kibana
-- Metricbeat records metrics from services running on the system and outputs it to kibana
+- Metricbeat records metrics from services running on the system and outputs it to Kibana
 
 The configuration details of each machine may be found below.
 
