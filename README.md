@@ -80,8 +80,8 @@ We have installed the following Beats on these machines:
 - Filebeat and Metricbeat
 
 These Beats allow us to collect the following information from each machine:
--  Filebeat collects log data and forwards them to logstash or elasticsearch. I expect Filebeat to process inbound traffic data and send it to elasticsearch or logstash to analyze.
--  Metricbeat collects metrics from services running on the system. If im running anything out of web-1 and web-2 I expect Metricbeat to record and output that data on kibana through elastic or logstash.
+-  Filebeat collects log data and forwards them to Logstash or Elasticsearch. I expect Filebeat to process inbound traffic data and send it to Elasticsearch or Logstash to analyze.
+-  Metricbeat collects metrics from services running on the system. If I am running anything out of web-1 and web-2 I expect Metricbeat to record and output that data on Kibana through Elastic or Logstash.
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
@@ -90,6 +90,6 @@ SSH into the control node and follow the steps below:
 - Update the ansible file to include the playbook
 - Run the playbook, and then navigate to IP address to check that the installation worked as expected
 
-- install-elk.yml it the playbook and I copied it to nano
-- We then changed the host IP to elk IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the filebeat config and metricbeat config
+- install-elk.yml is the playbook file and I copied it to nano
+- We then changed the host IP to ELK IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the Filebeat config and Metricbeat config
 - To check that the ELKserver is running went to http://23.99.204.44:5601/app/kibana
