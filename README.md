@@ -86,9 +86,9 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the yml file to ansible.
+- Copy the yml file to ansible
 - Update the ansible file to include the playbook
-- Run the playbook, and then navigate to IP address to check that the installation worked as expected.
+- Run the playbook, and then navigate to IP address to check that the installation worked as expected
 
 - install-elk.yml it the playbook and I copied it to nano
 - We then changed the host IP to elk IP to make sure the playbook downloaded to the right machine on lines 1105 and 1805 on the filebeat config and metricbeat config
